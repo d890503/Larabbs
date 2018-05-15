@@ -14,7 +14,17 @@ class TopicObserver
         //
     }
 
+    public function created(Topic $topic)
+    {
+        //
+    }
+
     public function updating(Topic $topic)
+    {
+        //
+    }
+
+    public function updated(Topic $topic)
     {
         //
     }
